@@ -46,6 +46,8 @@ switch to IDE terminal, VSC node terminal works fine for me
 #### If npx cypress open show empty window
 Check Node version, in my case it was below supported, welcome to [Highly recommended preconditions](#highly-recommended-preconditions)
 
+
+
 # Notes and tricks
-You can created account at https://cloud.cypress.io/login to use cypress cloud project.
+You can created account at https://cloud.cypress.io/login to use cypress cloud project, and also can use it by CYPRESS_PROJECT_ID env var to avoid it in code https://docs.cypress.io/guides/cloud/account-management/projects#Project-ID Probably may be usefull to separate staging/pre-prod/prod variables inside project not in code. 
 
