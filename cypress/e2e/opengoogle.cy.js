@@ -16,7 +16,7 @@ describe('irish google 123 Insurance check', () => {
 describe('polish google without 123 Insurance (fail)', () => {
   it('passes', () => {
     cy.visit('https://www.google.pl/search?q=123')
-    cy.contains.not('Porównywarki')
+    cy.contains('Porównywarki')
     cy.should('not.contain', '123 Insurance')
   })
 })
