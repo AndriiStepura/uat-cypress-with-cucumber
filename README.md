@@ -4,7 +4,22 @@ If you want to try cypress with cucumber, it's ready project for you
 
 # Requirements
 Installed `node` and `npm`
-You created account at https://cloud.cypress.io/login
+
+
+# How to install
+## Run to load node modules
+`npm install`
+
+
+## Or manually step by step guide
+### Install cypress
+```
+npm install cypress
+npm init
+npm install cypress --save-dev
+npx cypress open
+```
+
 
 # Highly recommended preconditions
 According to https://docs.cypress.io/guides/getting-started/installing-cypress#Nodejs update your node to supported
@@ -16,15 +31,6 @@ npm ERR! notsup Unsupported platform for n@9.2.0: wanted {"os":"!win32","arch":"
 so.. open https://nodejs.org/en/download download file for Windows and install it (verified on node-v20.10.0-x64.msi)
 Double check with `node -v` if expected version returned, you are ready to go forward, othervise investigate and assure node is compatible (for example - restart Terminal, IDE, PC).
 
-
-# Manually step by step guide
-## Install cypress
-```
-npm install cypress
-npm init
-npm install cypress --save-dev
-npx cypress open
-```
 
 # Issues and fixes notes:
 #### Error: read EBADF
@@ -40,4 +46,6 @@ switch to IDE terminal, VSC node terminal works fine for me
 #### If npx cypress open show empty window
 Check Node version, in my case it was below supported, welcome to [Highly recommended preconditions](#highly-recommended-preconditions)
 
+# Notes and tricks
+You can created account at https://cloud.cypress.io/login to use cypress cloud project.
 
