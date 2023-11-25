@@ -38,5 +38,6 @@ switch to IDE terminal, VSC node terminal works fine for me
 ---
 
 #### If npx cypress open show empty window
-Check Node version, in my case it was below supported, so welcome to 
+Check Node version, in my case it was below supported, welcome to [Highly recommended preconditions](#highly-recommended-preconditions)
+
 
