@@ -8,7 +8,8 @@
     "cypress": "^13.6.0"
   },
   "scripts": {
-    "test": "tbd_test_trigger_here"
+    "test": "cypress run --browser=chrome --headless",
+    "test-see": "cypress run --browser=chrome --headed"
   },
   "repository": {
     "type": "git",

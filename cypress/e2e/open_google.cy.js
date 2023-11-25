@@ -15,7 +15,7 @@ describe('irish google interface test', () => {
 
 describe('polish google interface test', () => {
   it('passes', () => {
-    cy.visit('https://www.google.pl/search?q=123&hl=pl&lr=lang_pl')
+    cy.visit('https://www.google.com/search?q=123&hl=pl&lr=lang_pl')
     cy.contains('Zaakceptuj wszystko')    
     cy.should('not.contain', 'Accept all')
     cy.should('not.contain', 'Glac le gach rud')

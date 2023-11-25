@@ -6,9 +6,16 @@ If you want to try cypress with cucumber, it's ready project for you
 Installed `node` and `npm`
 
 
-# How to install
+# How to start
 ## Run to load node modules
 `npm install`
+## Run tests
+`npm test`  
+or  
+`npm run test`  
+By default this npm project config (see package.json) will run headless chrome.
+To see cypress tests execution in browser you also can run headed mode with command  
+`npm run test-see`
 
 
 ## Or manually step by step guide
