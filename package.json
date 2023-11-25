@@ -1,0 +1,29 @@
+{
+  "name": "uat-cypress-with-cucumber",
+  "version": "1.0.0",
+  "description": "Boilerplate for UAT tests with Cypress and Cucumber",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  },
+  "scripts": {
+    "test": "tbd_test_trigger_here"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndriiStepura/uat-cypress-with-cucumber.git"
+  },
+  "keywords": [
+    "cypress",
+    "uat",
+    "cypress",
+    "cucumber"
+  ],
+  "author": "Andrii Stepura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndriiStepura/uat-cypress-with-cucumber/issues"
+  },
+  "homepage": "https://github.com/AndriiStepura/uat-cypress-with-cucumber#readme"
+}
