@@ -75,5 +75,5 @@ Cypress plugins to extend functionality - https://docs.cypress.io/plugins/
 You can created account at https://cloud.cypress.io/login to use cypress cloud project, and also can use it by CYPRESS_PROJECT_ID env var to avoid it in code https://docs.cypress.io/guides/cloud/account-management/projects#Project-ID Probably may be usefull to separate staging/pre-prod/prod variables inside project not in code. 
 
 #### VSC IDE integration
-For VSC I recommend install extension https://marketplace.visualstudio.com/items?itemName=alexkrechik  
+For VSC I recommend install extension https://marketplace.visualstudio.com/items?itemName=alexkrechik.cucumberautocomplete  
 with current /.vscode/settings.json it will help autocomplete steps and navigate to implementation
